@@ -1,0 +1,46 @@
+{
+    "basics":{
+        "nombre": "Melanie Sanchez",
+        "edad": "26",
+        "ciudad": "Guayaquil",
+        "titulo": "Programmer",
+        "email": "melaniesanchez@uees.edu.ec",
+        "telefono": "(593) 983-444-774",
+        "summary": "A programmer",
+        "location": {
+            "direccion": "Rosales 2 mazana 650 villa 7",
+            "ciudad": "Guayaquil",
+            "pais": "Ecuador"
+        },
+        "perfil":{
+            "network": "Linkedin",
+            "username": "Melaniesm"
+        }
+        
+    },
+
+    "trabajo":
+    {
+    "nombre": "Gensystems",
+    "direccion": "Garzota 2",
+    "decripcion": "Consultoria",
+    "posicion": "Programmer",
+    "inicio": "2018-03-01"
+    },
+
+    "educacion":[
+        {
+            "institucion": "Univeridad Espiritu Santo",
+            "url": "https://uees.edu.ec/",
+            "area": "Ingenieria en computación",
+            "tipo": "Ingenieria",
+            "inicio": "2023-03-01",
+            "puntaje": "9",
+            "cursos":[
+                "SQL - Basico",
+                "Introducción a JAVA"
+            ]
+        }
+    ]
+
+}

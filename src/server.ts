@@ -9,7 +9,6 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 app.use('/api/cv/', rutas.default)
-app.use('/api/cv/agregar', rutas.default)
 
 
 app.listen(PORT, () => {
