@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -p .",
     "start": "ts-node src/server.ts",
-    "dev": "nodemon src/server.ts",
-    "build": "tsc -p ."
+    "development": "nodemon dist/server.js",
+    "devserver": "npm run build && npm run development",
+    "dev":"nodemon src/server.ts"
   },
   "keywords": [],
   "author": "",

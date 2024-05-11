@@ -1,7 +1,8 @@
 interface cvSchema {
-    basics: schemaBasic;
-    trabajo: schemaTrabajo;
-    educacion: schemaEducacion;
+    id : string,
+    basics: schemaBasic,
+    trabajo: schemaTrabajo,
+    educacion: schemaEducacion
   }
 
   interface schemaBasic{
